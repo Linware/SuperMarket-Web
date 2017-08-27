@@ -29,11 +29,13 @@
 		<h1>Creación de nuevo usuario</h1>
 		<form name=formRegistroUsuario action=SrvProcesarUsuario method=post
 			class=formularioRegistro>
+
 			<label class=labelRegistro>Nombre de Usuario:</label><input type=text
 				name=user><br> <label class=labelRegistro>Contraseña:</label><input
 				type=text name=password><br> <label class=labelRegistro>Confirmar
 				Contraseña:</label><input type=text name=password><br> <input
 				type=submit value=Enviar>
+
 		</form>
 	</center>
 </body>

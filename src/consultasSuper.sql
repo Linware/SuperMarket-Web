@@ -1,2 +1,1 @@
-
-SELECT * from supermercado.usuarios;
+SELECT * from productos;

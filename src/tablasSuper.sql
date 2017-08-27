@@ -1,3 +1,5 @@
+
+DROP DATABASE IF EXISTS supermercado;
 CREATE DATABASE supermercado;
 USE supermercado;
 
