@@ -1,0 +1,2 @@
+
+SELECT * from supermercado.usuarios;

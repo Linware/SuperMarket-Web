@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Web Login</title>
+<title>Formulario de Registro de Usuarios</title>
 <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
@@ -25,25 +25,16 @@
 	crossorigin="anonymous"></script>
 </head>
 <body>
-
 	<center>
-
-		<h1>Ciber-Mercado</h1>
-
-		<h2>Bienvenido a la página de login.Por favor introduce tus datos</h2>
-
-		<form name=formLogin action=SrvLogin method=post>
-			<label>Usuario</label><br> <input type=text name=user><br>
-			<label>Password</label><br> <input type=text name=password><br>
-			</label> <input type=submit value=Acceder>
+		<h1>Creación de nuevo usuario</h1>
+		<form name=formRegistroUsuario action=SrvProcesarUsuario method=post
+			class=formularioRegistro>
+			<label class=labelRegistro>Nombre de Usuario:</label><input type=text
+				name=user><br> <label class=labelRegistro>Contraseña:</label><input
+				type=text name=password><br> <label class=labelRegistro>Confirmar
+				Contraseña:</label><input type=text name=password><br> <input
+				type=submit value=Enviar>
 		</form>
-
-		<p>
-			Si no estas registrado <a href="formularioRegistro.jsp">pincha
-				aqui</a>
-		</p>
-
 	</center>
-
 </body>
 </html>
