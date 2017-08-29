@@ -50,7 +50,7 @@
 		<form name=formLogin action=SrvLogin method=post>
 			<label>Usuario</label><br> <input type=text name=user><br>
 			<label>Password</label><br> <input type=text name=password><br>
-			</label> <button type="button" class="btn btn-outline-info botones">Acceder</button>
+			</label> <button type="button" class="btn btn-outline-info botones" onclick="submit()">Acceder</button>
 		</form>
 
 		<p>
