@@ -11,7 +11,7 @@ import java.sql.*;
 //import bdLibreria.beans.Libro;
 //import bdLibreria.beans.Usuario;
 
-public class BdOperaciones {
+public class BdOperaciones extends BdBase{
 	
 	public BdOperaciones() {
 		super();
@@ -20,7 +20,7 @@ public class BdOperaciones {
 	public boolean validarUsuario(String user, String password) {
 		boolean correcto = true;
 		try {
-			String sentenciaSql = "select usuario,password from cliente where usuario='" + user + "' and password='"
+			String sentenciaSql = "select usuario,contrasenya from usuarios where usuario='" + user + "' and contrasenya='"
 					+ password + "'";
 			System.out.println(sentenciaSql);
 			Statement stmt = conexion.createStatement();

@@ -6,8 +6,8 @@ USE supermercado;
 DROP TABLE IF EXISTS usuarios;
 CREATE TABLE usuarios(
  id INT, 
- nombre VARCHAR(30),
- contrasenia VARCHAR(20),
+ usuario VARCHAR(30),
+ contrasenya VARCHAR(20),
  PRIMARY KEY (id)
  )ENGINE=InnoDB;
  

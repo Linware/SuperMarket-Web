@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import bdSuper.bd.BdBase;
+import bdSuper.bd.BdOperaciones;
 import bdSuper.config.Configuracion;
 import bdSuper.config.GestorConfiguracion;
 
@@ -22,19 +23,9 @@ import bdSuper.config.GestorConfiguracion;
 @WebServlet("/SrvLogin")
 public class SrvLogin extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
-    /**
-     * @see HttpServlet#HttpServlet()
-     */
-    public SrvLogin() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
-    
+   
 	public void init(ServletConfig config) throws ServletException {
 		super.init(config);
-		// String FICHERO_CONFIGURACION = "C:\\Tomcat
-		// 5.5\\webapps\\ArtupaWeb\\WEB-INF\\artupa.properties";
 		String FICHERO_CONFIGURACION = getServletConfig().getInitParameter("fichero_propiedades");
 		boolean cargaCorrecta = GestorConfiguracion.cargarConfiguracion(FICHERO_CONFIGURACION);
 		if (!cargaCorrecta) {
@@ -47,8 +38,15 @@ public class SrvLogin extends HttpServlet {
 	public void service(HttpServletRequest request,HttpServletResponse response) throws IOException,ServletException{
 		String user= request.getParameter("user");
 		String password=request.getParameter("password");
+		System.out.println("***********************************************");
+		System.out.println("Esto es lo que recibe el servlet");
+		System.out.println(user);
+		System.out.println(password);
+		System.out.println("***********************************************");
 		BdOperaciones bdOperaciones=new BdOperaciones();
-		bdOperaciones.cerraConexion();
+		bdOperaciones.abrirConexion();
+		boolean correcto = bdOperaciones.validarUsuario(user, password);
+		bdOperaciones.cerrarConexion();
 		System.out.println("Funciono el service");
 		if(correcto) {
 			HttpSession sesion=request.getSession(true);
@@ -62,22 +60,6 @@ public class SrvLogin extends HttpServlet {
 		}else {
 			response.sendRedirect("login.jsp");
 		}
-	}
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
 	}
 
 }

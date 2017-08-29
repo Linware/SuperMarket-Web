@@ -1,1 +1,1 @@
-SELECT * from productos;
+SELECT * from usuarios;
