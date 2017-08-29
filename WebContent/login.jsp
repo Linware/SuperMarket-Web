@@ -41,17 +41,30 @@
 </head>
 <body>
 
+	<%
+		String user = (String) session.getAttribute("user");
+		String password = (String) session.getAttribute("password");
+	%>
+
 	<center>
 
-		<h1><img src="IMG/shopping-cart-2020929_640.png" alt="Logo" class="logo"> Ciber-Mercado</h1>
+		<h1>
+			<img src="IMG/shopping-cart-2020929_640.png" alt="Logo" class="logo">
+			Ciber-Mercado
+		</h1>
 
 		<h2>Bienvenido a la página de login.Por favor introduce tus datos</h2>
 
 		<form name=formLogin action=SrvLogin method=post>
 			<label>Usuario</label><br> <input type=text name=user><br>
 			<label>Password</label><br> <input type=text name=password><br>
-			</label> <button type="button" class="btn btn-outline-info botones" onclick="submit()">Acceder</button>
+			</label>
+			<button type="button" class="btn btn-outline-info botones"
+				onclick="submit()">Acceder</button>
 		</form>
+		
+		<%=user %>
+		<%=password %>
 
 		<p>
 			Si no estas registrado <a href="formularioRegistro.jsp">pincha
