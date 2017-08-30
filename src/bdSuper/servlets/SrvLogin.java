@@ -60,6 +60,4 @@ public class SrvLogin extends HttpServlet {
 		}else {
 			response.sendRedirect("login.jsp");
 		}
-	}
-
-}
+	}}

@@ -3,6 +3,8 @@ package bdSuper.config;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import bdSuper.config.Configuracion;
+
 public class GestorConfiguracion {
 	public static boolean cargarConfiguracion(String FICHERO_CONFIGURACION) {
 		boolean correcto = true;
