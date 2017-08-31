@@ -46,6 +46,9 @@
 				<option value="3">Pescaderia</option>
 				<option value="4">Otros</option>
 			</select>
+			<br>
+			<button type="button" class="btn btn-outline-info botones"
+				onclick="submit()">Buscar Productos</button>
 		</form>
 
 	</center>

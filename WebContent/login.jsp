@@ -59,7 +59,7 @@
 		<form name=formLogin action=SrvLogin method=post>
 			<label>Usuario</label><br> <input type=text name=user placeholder="Jose"><br>
 			<label>Password</label><br> <input type=text name=password placeholder="1234"><br>
-			</label>
+			
 			<button type="button" class="btn btn-outline-info botones"
 				onclick="submit()">Acceder</button>
 		</form>
