@@ -29,7 +29,7 @@
 <!--
 	$(document).ready(function() {
 		$(".test").click(function() {
-			alert("Se esta ejecutando jQuery!");
+			alert("Política de empresa: Se garantiza la seguridad de los datos del cliente en base a la Ley de Protección de Datos");
 		});
 
 		$('.carousel').carousel({
@@ -73,7 +73,7 @@
 		</p>
 
 		<input type=button name=TestJquery class=test
-			value="Comprobacion de JQuery">
+			value="Terminos y Condiciones">
 
 
 		<div id="carouselExampleControls" class="carousel slide"
