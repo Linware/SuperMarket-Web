@@ -57,15 +57,12 @@
 		<h2>Bienvenido a la página de login.Por favor introduce tus datos</h2>
 
 		<form name=formLogin action=SrvLogin method=post>
-			<label>Usuario</label><br> <input type=text name=user placeholder="Jose"><br>
-			<label>Password</label><br> <input type=text name=password placeholder="1234"><br>
+			<label>Usuario</label><br> <input type=text name=user placeholder="Jose" class="centrado"><br>
+			<label>Password</label><br> <input type=text name=password placeholder="1234" class="centrado"><br>
 			
 			<button type="button" class="btn btn-outline-info botones"
 				onclick="submit()">Acceder</button>
 		</form>
-		
-		<%=user %>
-		<%=password %>
 
 		<p>
 			Si no estas registrado <a href="formularioRegistro.jsp">pincha
