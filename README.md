@@ -18,7 +18,7 @@ HTML5,CSS3,JavaScript(JQuery,BootStrap)
 
 	Vista formulario de registro:
 
-![alt tag](https://github.com/Linware/SuperMarket-Web/blob/master/WebContent/IMG/2017-09-16%20(1).png) 
+![alt tag](https://github.com/Linware/SuperMarket-Web/blob/master/WebContent/IMG/2017-09-16%20(3).png) 
 
 
 TAREAS REALIZADAS:

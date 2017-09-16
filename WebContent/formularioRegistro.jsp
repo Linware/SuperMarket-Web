@@ -62,7 +62,7 @@
     <div class="form-group col-md-4">
       <label for="inputState" class="col-form-label">Provincia</label>
       <select id="inputState" class="form-control">Elige:
-      <option value="1">Bilbao</option>
+      <option value="1">Vizcaya</option>
       <option value="2">Barcelona</option>
       <option value="3">Madrid</option>
       </select>
