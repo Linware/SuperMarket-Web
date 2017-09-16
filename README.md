@@ -13,23 +13,12 @@ HTML5,CSS3,JavaScript(JQuery,BootStrap)
 
 	Vista Login:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![alt tag](https://github.com/Linware/SuperMarket-Web/blob/master/WebContent/IMG/2017-09-16%20(2).png) 
 
 
 	Vista formulario de registro:
+
+![alt tag](https://github.com/Linware/SuperMarket-Web/blob/master/WebContent/IMG/2017-09-16%20(1).png) 
 
 
 TAREAS REALIZADAS:
