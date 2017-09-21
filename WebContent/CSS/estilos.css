@@ -57,3 +57,12 @@ h1 {
 .centrado{
 	text-align:center;
 }
+
+.right-place{
+    margin-left: 200 vw;
+}
+
+.rotulo{
+	display: inline-block;
+	padding-right: 200 vw;
+}

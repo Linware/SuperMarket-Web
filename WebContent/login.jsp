@@ -27,15 +27,19 @@
 
 <script language=JavaScript>
 <!--
-	$(document).ready(function() {
-		$(".test").click(function() {
-			alert("Política de empresa: Se garantiza la seguridad de los datos del cliente en base a la Ley de Protección de Datos");
-		});
+	$(document)
+			.ready(
+					function() {
+						$(".test")
+								.click(
+										function() {
+											alert("Política de empresa: Se garantiza la seguridad de los datos del cliente en base a la Ley de Protección de Datos");
+										});
 
-		$('.carousel').carousel({
-			interval : 3000
-		})
-	});
+						$('.carousel').carousel({
+							interval : 3000
+						})
+					});
 
 	-->
 </script>
@@ -51,15 +55,20 @@
 
 		<h1>
 			<img src="IMG/shopping-cart-2020929_640.png" alt="Logo" class="logo">
-			Ciber-Mercado
+			<p class="rotulo">Ciber-Mercado</p>
+			<div class="btn-group right-place" role="group" aria-label="Basic example">
+				<button type="button" class="btn btn-secondary">ES</button>
+				<button type="button" class="btn btn-secondary">EN</button>
+			</div>
 		</h1>
 
 		<h2>Bienvenido a la página de login.Por favor introduce tus datos</h2>
 
 		<form name=formLogin action=SrvLogin method=post>
-			<label>Usuario</label><br> <input type=text name=user placeholder="Jose" class="centrado"><br>
-			<label>Password</label><br> <input type=text name=password placeholder="1234" class="centrado"><br>
-			
+			<label>Usuario</label><br> <input type=text name=user
+				placeholder="Jose" class="centrado"><br> <label>Password</label><br>
+			<input type=text name=password placeholder="1234" class="centrado"><br>
+
 			<button type="button" class="btn btn-outline-info botones"
 				onclick="submit()">Acceder</button>
 		</form>
