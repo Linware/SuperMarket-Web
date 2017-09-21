@@ -38,7 +38,13 @@
 
 						$('.carousel').carousel({
 							interval : 3000
-						})
+						});
+						$(".btn-secondary").click(function(){ 
+							$("formLogin .desaparece").fadeOut(1000);
+						});
+						$("h1 div .btn-secondary").click(function(){
+							$("form label .desaparece").value("User");
+						});
 					});
 
 	-->
@@ -65,7 +71,7 @@
 		<h2>Bienvenido a la página de login.Por favor introduce tus datos</h2>
 
 		<form name=formLogin action=SrvLogin method=post>
-			<label>Usuario</label><br> <input type=text name=user
+			<label class="desaparece">Usuario</label><br> <input type=text name=user
 				placeholder="Jose" class="centrado"><br> <label>Password</label><br>
 			<input type=text name=password placeholder="1234" class="centrado"><br>
 
