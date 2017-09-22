@@ -39,7 +39,7 @@
 						$('.carousel').carousel({
 							interval : 3000
 						});
-						$(".btn-secondary").click(function(){ 
+						$("h1 div .btn-secondary").click(function(){ 
 							$("formLogin .desaparece").fadeOut(1000);
 						});
 						$("h1 div .btn-secondary").click(function(){
