@@ -13,5 +13,7 @@
 	<classpathentry kind="lib" path="C:/Tomcat/apache-tomcat-8.5.15/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="C:/Tomcat/apache-tomcat-8.5.15/lib/servlet-api.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
