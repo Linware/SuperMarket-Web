@@ -1,13 +1,13 @@
 # SuperMarket-Web
 
-Presentaci髇 del proyecto:
+Presentaci贸n del proyecto:
 
-Servicio Web al estilo supermercado online que permite a los usuarios crearse una cuenta con la que despu閟 realizar compras de los productos almacenados en la base de datos y finalmente llegar a la plataforma de pago.
+Servicio Web al estilo supermercado online que permite a los usuarios crearse una cuenta con la que despu茅s realizar compras de los productos almacenados en la base de datos y finalmente llegar a la plataforma de pago.
 
-Tecnolog韆s en uso:
+Tecnolog铆as en uso:
 
 JavaEE(Servlets,JSP)
-MySQL
+,MySQL
 HTML5,CSS3,JavaScript(JQuery,BootStrap)
 
 
@@ -23,9 +23,9 @@ HTML5,CSS3,JavaScript(JQuery,BootStrap)
 
 TAREAS REALIZADAS:
 
-1>Estructuraci髇 b醩ica del modelo
-2>Implementaci髇 de las librerias y conectores (Conector a MYSQL,BootStrap,JQuery)
-3>Preparaci髇 del sistema de Registro
+1>Estructuraci贸n b谩sica del modelo
+2>Implementaci贸n de las librerias y conectores (Conector a MYSQL,BootStrap,JQuery)
+3>Preparaci贸n del sistema de Registro
 
 PENDIENTES DE REALIZAR:
 
@@ -34,4 +34,4 @@ PENDIENTES DE REALIZAR:
 
 PENDIENTES DE TESTEAR:
 
-1>Actualizaci髇 correcta de los registros de la base de datos
+1>Actualizaci贸n correcta de los registros de la base de datos
