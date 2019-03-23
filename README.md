@@ -2,7 +2,7 @@
 
 Presentación del proyecto:
 
-Servicio Web al estilo supermercado online que permite a los usuarios crearse una cuenta con la que después realizar compras de los productos almacenados en la base de datos y finalmente llegar a la plataforma de pago.
+Servicio web al estilo supermercado online, que permite a los usuarios crearse una cuenta con la que después realizar la compra de los productos almacenados en la base de datos y finalmente llegar a la plataforma de pago.
 
 Tecnologías en uso:
 
